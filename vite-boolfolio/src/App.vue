@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  
+
   <body>
     <header>
       <MainHeader/>
@@ -32,6 +32,6 @@ export default {
   </body>
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use "./styles/partials/general.scss";
 </style>
