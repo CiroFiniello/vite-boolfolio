@@ -6,9 +6,7 @@ import MainFooter from './components/MainFooter.vue';
 export default {
   name:"",
   components:{
-    MainHeader,
-    AppMain,
-    MainFooter
+    MainHeader
   }
 }
 </script>
@@ -21,14 +19,10 @@ export default {
     </header>
   
     <main>
-      <AppMain/>
+      <RouterView>
+
+      </RouterView>
     </main>
-  
-    <footer>
-  
-      <MainFooter/>
-  
-    </footer>
   </body>
 </template>
 
